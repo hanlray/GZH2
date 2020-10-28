@@ -8,7 +8,7 @@ import NewsLetterSlideOut from '../components/NewsLetterSlideOut'
 import PostsGrid from '../components/grids/PostsGrid'
 import SiteFooter from '../components/SiteFooter'
 import SiteHero from '../components/SiteHero'
-import SiteLogo from '../components/SiteLogo'
+import SiteLogo from '../components/StaticLogo'
 import SiteNav from '../components/SiteNav'
 import ResourceGrid from '~/components/grids/ResourceGrid'
 

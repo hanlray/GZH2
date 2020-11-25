@@ -1,67 +1,21 @@
 ---
-title: Comments Support
-subtitle: Add Comments to Posts With Disqus
+title: Custom Anki Batch Note/Card Creation/Generation
+subtitle: Custom Anki Batch Note/Card Creation/Generation
 category:
   - Third Party Integrations
-author: Daniel Kelly
+author: hanlray
 date: 2019-07-24T19:59:59.000Z
-featureImage: /uploads/disqus-hero.jpg
+featureImage: /uploads/about-hero.jpg
 ---
-Disqus brings the power of commenting to the Awake template. It provides features like moderation, reactions, filtering, and social sharing out of the box. Best of all, it's free and super easy to setup!
+Anki is a great tool for remembering things.  But the process of creating/generating notes/cards is cumbersome, especially when you have lots of notes/cards to be created.  I have been using Anki to learn a wide variety of knowledge for several years, and since I'm a software developer I'm able to write code to facilitate the process of custom creation of notes/cards. This kind of expertise helps me a lot and I guess other people could also benefit from this. That's why I'm offering this kind of service:
 
-## Step 1
+* Custom note types
+  Image/audio fields are supported
+* Custom card layouts
+  You define the order of fields and rendering
+* Batch creation of notes/cards
+  Scrape note information from a variety of source, for instance, dictionaries/web/files, to generate a collection of notes so that you can import into your anki app to learn.
 
-Go to disqus.com and click on "Get Started"
+Get in touch with me 
 
-![Screenshot of Disqus homepage](/uploads/disqus-get-started.jpg)
-
-## Step 2
-
-Choose "I want to install Disqus on my site"
-
-![Disqus button "I want to install Disqus on my site"](/uploads/disqus-add-to-website.jpg)
-
-## Step 3
-
-Sign-up or sign in
-
-## Step 4
-
-Enter site name, Disqus URL and select a category. The Disqus URL name is your site’s name in your account where you can access all the required settings.
-
-## Step 5
-
-Select a plan. There are several premium versions available, but don't worry the free one works just great too!
-
-## Step 6
-
-Disqus supports a number of different platforms but also works great in static sites like Awake. Scroll to the very bottom of the list and choose: "I don't see my platform listed, install manually with"
-
-![Disqus button "I don't see my platform listed, install manually with"](/uploads/disqus-platform-button.jpg)
-
-## Step 7
-
-You can ignore everything on this page, as the Awake template has already configured it for you. All you have to do is find your "Site Short Name" (it's the first part of the url) and add it to `config/_siteConfig.js`.
-
-Take it from here:
-
-![Site Short Name in url](/uploads/disqus-site-short-name.jpg)
-
-and put it here:
-
-```
-// config/_siteConfig.js
-export default {
-...
-// Disqus
-  disqus: {
-    on: false,
-    loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'testing-bjsj2bjl0i'
-  },
-}
-```
-
-## Step 8
-
-That's it! You've got comments up and running on your site. Go checkout a post and see your new fancy comments section.
+![](/uploads/hanlray.jpg)
